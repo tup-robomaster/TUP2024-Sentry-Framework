@@ -1,0 +1,3 @@
+[submodule "src/IG_LIO_SLAM"]
+	path = src/IG_LIO_SLAM
+	url = git@github.com:INIF-FISH/IG_LIO_SLAM.git
