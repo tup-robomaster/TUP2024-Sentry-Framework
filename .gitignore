@@ -35,3 +35,4 @@ build/
 install/
 log/
 livox_bag/
+src/IG_LIO_SLAM/ThirdParty/ws_livox/**
