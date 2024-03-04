@@ -35,7 +35,7 @@ namespace rm_auto_aim
 {
     class PortInterface // 直接和ubuntu文件相连
     {
-        string password = "0727";
+        string password = "sys666";
         std::unique_ptr<CrcCheck> crc_check_;
         rclcpp::Logger logger_;
         rclcpp::Clock steady_clock_{RCL_STEADY_TIME};

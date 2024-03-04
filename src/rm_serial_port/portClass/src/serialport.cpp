@@ -110,13 +110,13 @@ namespace rm_auto_aim
     {
         int mode = mode_;
         VisionNavData vision_data;
-        vision_data.linear_velocity[0] =7; //msg->linear.x;
-        vision_data.linear_velocity[1] = 7;//msg->linear.y;
-        vision_data.linear_velocity[2] = 7;//msg->linear.z;
+        vision_data.linear_velocity[0] = msg->linear.x; //msg->linear.x;
+        vision_data.linear_velocity[1] = msg->linear.y;//msg->linear.y;
+        vision_data.linear_velocity[2] = msg->linear.z;//msg->linear.z;
 
-        vision_data.angular_velocity[0] =7; //msg->angular.x;
-        vision_data.angular_velocity[1] =7; //msg->angular.y;       
-        vision_data.angular_velocity[2] =7;// msg->angular.z;
+        vision_data.angular_velocity[0] = msg->angular.x; //msg->angular.x;
+        vision_data.angular_velocity[1] = msg->angular.y; //msg->angular.y;       
+        vision_data.angular_velocity[2] = msg->angular.z;
         data_transform_->transformData(mode, vision_data, port_interface_->Tdata);
 
         mutex_.lock();
