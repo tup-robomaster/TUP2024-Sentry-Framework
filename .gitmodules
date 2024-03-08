@@ -4,3 +4,6 @@
 [submodule "src/TUP-Sentry-Decision-V2"]
 	path = src/TUP-Sentry-Decision-V2
 	url = git@github.com:tup-robomaster/TUP-Sentry-Decision-V2.git
+[submodule "src/TUP-Vision-2024"]
+	path = src/TUP-Vision-2024
+	url = git@github.com:tup-robomaster/TUP-Vision-2024.git
