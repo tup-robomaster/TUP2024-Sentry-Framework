@@ -1,3 +1,6 @@
 [submodule "src/IG_LIO_SLAM"]
 	path = src/IG_LIO_SLAM
 	url = git@github.com:INIF-FISH/IG_LIO_SLAM.git
+[submodule "src/TUP-Sentry-Decision-V2"]
+	path = src/TUP-Sentry-Decision-V2
+	url = git@github.com:tup-robomaster/TUP-Sentry-Decision-V2.git
