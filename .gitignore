@@ -37,3 +37,4 @@ log/
 livox_bag/
 src/IG_LIO_SLAM/ThirdParty/ws_livox/**
 src/livox_ros_driver2
+src/Livox-SDK2
