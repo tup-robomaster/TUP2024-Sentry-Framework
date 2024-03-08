@@ -1,3 +1,0 @@
-%YAML:1.0
-password: 0727 #用户密码，用于串口权限
-serialPortName: "/dev/ttyUSB0"
