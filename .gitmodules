@@ -7,3 +7,6 @@
 [submodule "src/TUP-Vision-2024"]
 	path = src/TUP-Vision-2024
 	url = git@github.com:tup-robomaster/TUP-Vision-2024.git
+[submodule "src/shm_video_transmission"]
+	path = src/shm_video_transmission
+	url = git@github.com:INIF-FISH/shm_video_transmission.git
